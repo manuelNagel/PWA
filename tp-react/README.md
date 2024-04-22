@@ -3,6 +3,9 @@
 <h3>Alumno : Juan Manuel Nagel Sabio</h3>
 <h3>Legajo: Fai - 2595</h3>
 
+<h3>Alumno : Pablo Navarro </h3>
+<h3>Legajo : Fai - 4284</h3>
+
 <h2>Ejercicios del tp:</h2>
 
 2. <u><b>index.js :</b></u> suele ser el punto de entrada a la aplicación react. En el mismo se encuentra la importacion del componente principal de la aplicación, aquín se comienza la ejecución de la aplicación React.
