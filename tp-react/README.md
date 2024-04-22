@@ -2,10 +2,10 @@
 
 <h3>Alumno : Juan Manuel Nagel Sabio</h3>
 <h3>Legajo: Fai - 2595</h3>
-----
+<hr>
 <h3>Alumno : Pablo Navarro </h3>
 <h3>Legajo : Fai - 4284</h3>
-----
+<hr>
 <h2>Ejercicios del tp:</h2>
 
 2.
