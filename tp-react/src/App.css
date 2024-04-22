@@ -37,7 +37,7 @@ h1 {
 .todo-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #aacdf7;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .completed {
-  color: #c5aeff;
+  color: #729bce;
   text-decoration: line-through;
   cursor: pointer;
 }
@@ -98,7 +98,7 @@ h1 {
 .search-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #aacdf7;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -113,7 +113,7 @@ h1 {
 
 /* Optionally, you can adjust the search button style */
 .search-btn {
-  background: #8758ff;
+  background: #aacdf7;
   color: #fff;
   border: none;
   padding: 0.55rem;
@@ -124,7 +124,7 @@ h1 {
 .search-input {
   outline: none;
   background: none;
-  border: 1px solid #8758ff;
+  border: 1px solid #aacdf7;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
   margin-bottom: 0.3rem;
@@ -139,7 +139,7 @@ h1 {
 
 /* Optionally, you can adjust the search button style */
 .search-btn {
-  background: #8758ff;
+  background: #aacdf7;
   color: #fff;
   border: none;
   padding: 0.55rem;

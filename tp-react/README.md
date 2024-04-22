@@ -16,6 +16,8 @@
 <h2>Descripción de la aplicación</h2>
 La aplicación es un proyecto realizado con React con componentes de fontawesome para los tipos de letras e iconos, sumado a esto también utiliza el componente uuid para la creación de ids de las tareas. La aplicación busca que el usuario cuente con una lista de tareas a realizar y pueda interactuar con la misma en la creación,eliminación y actualización de tareas. Además cuenta con un buscador de tareas y un contador de tareas terminadas y sin terminar.
 
+![alt text](image.png)
+
 <h1>Guia de instalacion de la aplicación</h1>
 
 <h3><u><b>Requisitos previos:</b></u></h3>
