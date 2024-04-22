@@ -2,7 +2,7 @@
 
 <h3>Alumno : Juan Manuel Nagel Sabio</h3>
 <h3>Legajo: Fai - 2595</h3>
-
+----
 <h3>Alumno : Pablo Navarro </h3>
 <h3>Legajo : Fai - 4284</h3>
 
