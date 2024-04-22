@@ -5,7 +5,7 @@
 
 <h2>Ejercicios del tp:</h2>
 
-2. <u><b>index.js :</b></u: suele ser el punto de entrada a la aplicación react. En el mismo se encuentra la importacion del componente principal de la aplicación, aquín se comienza la ejecución de la aplicación React.
+2. <u><b>index.js :</b></u> suele ser el punto de entrada a la aplicación react. En el mismo se encuentra la importacion del componente principal de la aplicación, aquín se comienza la ejecución de la aplicación React.
 <u><b>app.js :</b></u> contiene el componente principal de la aplicación, es donde se define la estructura y comportamiento de la misma.
 <u><b>index.css :</b></u> hoja de estilo css que aplica a los diferentes componentes de la aplicación react, en general se utiliza para las paletas de colores o estilos generales a aplicar en toda la aplicación
 <u><b>package-json.js :</b></u> es un archivo de configuración de npm que define la configuración y dependencias de npm necesarias para la ejecución de la app.
@@ -22,5 +22,11 @@ Tener node.js descargado <a href = "https://nodejs.org/en">página de node.js</a
 <h3><u><b>Pasos de instalacion</b></u></h3>
 
 <ol type="1">
-    <li>clonar repositorio : git clone </li>
+    <li>posicionarse en donde uno quiere instalar el repositorio con la terminal</li>
+    <li>clonar repositorio : <i>git clone  https://github.com/manuelNagel/PWA.git</i> </li>
+    <li>Posicionarse en la direccion del tp : 
+    <i>cd ./tp-react</i>
+    </li>
+    <li>Ejecutar en la terminal <i>npm install</i> </li>
+    <li>Por ultimo ejecutar <i>npm start</i></li>
 </ol>

@@ -61,7 +61,7 @@ export const TodoWrapper = () => {
     
   return (
     <div className='TodoWrapper'>
-        <Titulo title="To-Do list"></Titulo>
+        <Titulo title="To-Do App"></Titulo>
         <div>
                 <p className='count-p'>Tareas Terminadas: {completedCount}</p>
                 <p className='count-p'>Tareas sin Terminar: {uncompletedCount}</p>
