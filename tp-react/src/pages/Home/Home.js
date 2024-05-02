@@ -4,6 +4,7 @@ import { TodoWrapper } from "../../components/TodoWrapper";
 //Observaciones
 
 //Buen readme. Bien completo.
+//Buen nombrado de variables y funciones.
 
 //Home pierde sentido si existe TodoWrapper. Ese wrapper deberia ser el home.
 //Llamen a los archivos que retornan un jsx .jsx en vez de .js
