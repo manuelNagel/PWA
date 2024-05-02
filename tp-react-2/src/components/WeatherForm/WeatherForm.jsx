@@ -20,7 +20,7 @@ const WeatherForm = () => {
     const fetchWeatherData = async () => {
       const weatherPromises = initialLocations.map(async (location) => {
         try {
-          const response = await fetch(`https://api.weatherapi.com/v1/current.json?q=${encodeURIComponent(location)}&key=a8e5776ae3fc426a863223719240105`);
+          const response = await fetch(`https://api.weatherapi.com/v1/current.json?q=${(location)}&key=a8e5776ae3fc426a863223719240105`);
           const data = await response.json();
           return data;
         } catch (error) {

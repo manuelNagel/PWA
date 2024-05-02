@@ -11,14 +11,16 @@ import WeatherForm from './components/WeatherForm/WeatherForm';
 import Root from "./routes/root";
 import App from './App';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Root />}>
-      <Route path="/App" element={<App />} />
-      <Route path="/WeatherForm" element={<WeatherForm />} />
-    </Route>
-  )
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },
+  {
+    path: "/WeatherForm",
+    element: <WeatherForm />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
