@@ -1,1 +1,24 @@
 .DS_Store
+
+./tp-react-2/node_modules
+./tp-react-2/.pnp
+./tp-react-2/.pnp.js
+
+# testing
+./tp-react-2/coverage
+
+# production
+./tp-react-2/build
+
+# misc
+./tp-react-2/.DS_Store
+./tp-react-2/.env.local
+./tp-react-2/.env.development.local
+./tp-react-2/.env.test.local
+./tp-react-2/.env.production.local
+
+./tp-react-2/npm-debug.log*
+./tp-react-2/yarn-debug.log*
+./tp-react-2/yarn-error.log*
+./tp-react-2/.node_modules
+/node_modules
