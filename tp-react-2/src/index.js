@@ -14,8 +14,8 @@ import App from './App';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route path="App" element={<App />} />
-      <Route path="WeatherForm" element={<WeatherForm />} />
+      <Route path="/App" element={<App />} />
+      <Route path="/WeatherForm" element={<WeatherForm />} />
     </Route>
   )
 );
