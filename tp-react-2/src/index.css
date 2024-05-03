@@ -14,3 +14,11 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .h-custom {
+    /* Estilos personalizados aquí */
+    
+      height: 650px;
+  }
+}
