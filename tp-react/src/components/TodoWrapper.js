@@ -3,7 +3,7 @@ import { ToDoForm } from './ToDoForm'
 import { ToDo} from './ToDo'
 import {Titulo} from './Titulo'
 import {v4 as uuidv4} from 'uuid';
-import { EditToDoForm } from './EditToDoForm';
+import { ToDoForm } from './ToDoForm';
 uuidv4();
 
 export const TodoWrapper = () => {
@@ -14,7 +14,6 @@ export const TodoWrapper = () => {
     const [uncompletedCount, setUncompletedCount] = useState(0);
 
     useEffect(() => {
-        // Calculate initial counts
         calculateTaskCounts();
     }, [toDos]);
 
@@ -71,7 +70,7 @@ export const TodoWrapper = () => {
             placeholder="Search tasks..."
             value={searchQuery}
             onChange={handleSearch}
-            className="search-input" // Add className here
+            className="search-input" 
         />
         <ToDoForm addTodo= {addTodo}/>
         {filteredToDos.map((todo, index) => (
