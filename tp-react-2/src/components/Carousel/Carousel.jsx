@@ -30,19 +30,15 @@ const Carousel = () => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {imagesWithDescriptions.map((item, index) => (
-            <div key={index} className="flex-shrink-0 w-full">
-              <div className="flex justify-center items-center h-custom">
-
-                <img src={item.image} alt={`Image ${index}`} className='w-full h-screen object-cover' />
-                {index === currentIndex && (
-                <div className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-400 font-bold text-5xl">
+            <div key={index} className="flex-shrink-0 w-full relative">
+              <img src={item.image} alt={`Image ${index}`} className='w-full h-screen object-cover' />
+              {index === currentIndex && (
+                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-400 font-bold text-5xl">
                   {item.description}
                 </div>
               )}
-              </div>
             </div>
-        ))} 
-          
+          ))}
         </div>
       </div>
       <div className="absolute top-1/2 transform -translate-y-1/2 left-4">

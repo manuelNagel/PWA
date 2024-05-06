@@ -18,7 +18,7 @@ export default function Navbar() {
                 src={Logo}
                 width={80}
                 
-                alt="Wheater logo"
+                alt="Weather logo"
               />
               </Link>
               
