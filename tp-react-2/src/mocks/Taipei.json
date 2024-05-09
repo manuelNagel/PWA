@@ -1,0 +1,35 @@
+{
+    "location": {
+      "name": "Taipei",
+      "region": "T'ai-pei",
+      "country": "Taiwan",
+      "lat": 25.04,
+      "lon": 121.53,
+      "tz_id": "Asia/Taipei",
+      "localtime_epoch": 1715220044,
+      "localtime": "2024-05-09 10:00"
+    },
+    "current": {
+      "last_updated": "2024-05-09 09:45",
+      "temp_c": 24,
+      "is_day": 1,
+      "condition": {
+        "text": "Partly cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+        "code": 1003
+      },
+      "wind_kph": 28.1,
+      "wind_degree": 70,
+      "wind_dir": "ENE",
+      "pressure_mb": 1019,
+      "pressure_in": 30.09,
+      "precip_mm": 0,
+      "precip_in": 0,
+      "humidity": 57,
+      "cloud": 75,
+      "feelslike_c": 25.3,
+      "vis_km": 10,
+      "uv": 6,
+      "gust_kph": 35.3
+    }
+  }

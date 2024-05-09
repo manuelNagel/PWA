@@ -1,0 +1,35 @@
+{
+    "location": {
+      "name": "San Martin De Los Andes",
+      "region": "Neuquen",
+      "country": "Argentina",
+      "lat": -40.17,
+      "lon": -71.35,
+      "tz_id": "America/Argentina/Salta",
+      "localtime_epoch": 1715220137,
+      "localtime": "2024-05-08 23:02"
+    },
+    "current": {
+      "last_updated": "2024-05-08 23:00",
+      "temp_c": -4.8,
+      "is_day": 0,
+      "condition": {
+        "text": "Light snow",
+        "icon": "//cdn.weatherapi.com/weather/64x64/night/326.png",
+        "code": 1213
+      },
+      "wind_kph": 8.6,
+      "wind_degree": 287,
+      "wind_dir": "WNW",
+      "pressure_mb": 1020,
+      "pressure_in": 30.13,
+      "precip_mm": 0.04,
+      "precip_in": 0,
+      "humidity": 99,
+      "cloud": 100,
+      "feelslike_c": -8.6,
+      "vis_km": 10,
+      "uv": 1,
+      "gust_kph": 18.1
+    }
+  }

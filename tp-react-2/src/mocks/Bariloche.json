@@ -1,0 +1,35 @@
+{
+    "location": {
+      "name": "Bariloche",
+      "region": "Rio Negro",
+      "country": "Argentina",
+      "lat": -41.15,
+      "lon": -71.3,
+      "tz_id": "America/Argentina/Salta",
+      "localtime_epoch": 1715220174,
+      "localtime": "2024-05-08 23:02"
+    },
+    "current": {
+      "last_updated": "2024-05-08 23:00",
+      "temp_c": 5,
+      "is_day": 0,
+      "condition": {
+        "text": "Partly cloudy",
+        "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png",
+        "code": 1003
+      },
+      "wind_kph": 28.1,
+      "wind_degree": 310,
+      "wind_dir": "NW",
+      "pressure_mb": 1015,
+      "pressure_in": 29.97,
+      "precip_mm": 0,
+      "precip_in": 0,
+      "humidity": 70,
+      "cloud": 50,
+      "feelslike_c": 2.6,
+      "vis_km": 10,
+      "uv": 1,
+      "gust_kph": 35.3
+    }
+  }

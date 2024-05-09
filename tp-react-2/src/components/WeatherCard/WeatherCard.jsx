@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const WeatherCard = ({ location, current }) => {
   let backgroundColor = '';
@@ -15,7 +16,8 @@ const WeatherCard = ({ location, current }) => {
   }
 
   return (
-    <div className={`weather-card ${backgroundColor} p-4 rounded-md shadow-md min-h-[200px]`}>
+    <Link to={`/Details/${location.name}`} className="weather-card-link">
+    <div className={`weather-card ${backgroundColor} ${gradientClass}p-4 rounded-md shadow-md min-h-[200px]`}>
       <h2 className="text-xl font-semibold mb-2">{location.name}, {location.region}, {location.country}</h2>
       <div className="weather-details flex justify-between">
         <div className="flex items-center">
@@ -30,6 +32,7 @@ const WeatherCard = ({ location, current }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

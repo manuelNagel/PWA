@@ -1,0 +1,35 @@
+{
+    "location": {
+      "name": "Peking",
+      "region": "Beijing",
+      "country": "China",
+      "lat": 39.93,
+      "lon": 116.39,
+      "tz_id": "Asia/Shanghai",
+      "localtime_epoch": 1715220003,
+      "localtime": "2024-05-09 10:00"
+    },
+    "current": {
+      "last_updated": "2024-05-09 09:45",
+      "temp_c": 24,
+      "is_day": 1,
+      "condition": {
+        "text": "Sunny",
+        "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+        "code": 1000
+      },
+      "wind_kph": 11.2,
+      "wind_degree": 90,
+      "wind_dir": "E",
+      "pressure_mb": 1014,
+      "pressure_in": 29.94,
+      "precip_mm": 0,
+      "precip_in": 0,
+      "humidity": 41,
+      "cloud": 0,
+      "feelslike_c": 23.7,
+      "vis_km": 10,
+      "uv": 6,
+      "gust_kph": 18.4
+    }
+  }

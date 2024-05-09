@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<h1>Integrantes del Equipo:</h1>
+  <ul>
+    <li><strong>Estudiante:</strong> Juan Manuel Nagel Sabio</li>
+    <ul>
+      <li><strong>Legajo:</strong> Fai - 2595</li>
+    </ul>
+    <li><strong>Estudiante:</strong> Pablo Navarro</li>
+    <ul>
+      <li><strong>Legajo:</strong> Fai - 4284</li>
+    </ul>
+  </ul>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1>Aplicación de Pronóstico del Tiempo</h1>
+  <p>La Aplicación de Pronóstico del Tiempo tiene como objetivo proporcionar pronósticos del tiempo para ciudades de todo el mundo, junto con detalles específicos sobre la ubicación seleccionada.</p>
 
-## Available Scripts
+  <h1>Funcionalidades</h1>
+  <p>La aplicación cuenta con un carrusel con títulos clickeables para ejecutar búsquedas automáticas de la ciudad clickeada. Además, la barra de navegación incluye un enlace a la vista/página de búsqueda de ciudades.</p>
+  <p>La vista/página de búsqueda de ciudades incluye una barra de búsqueda con varios parámetros posibles:</p>
+  <ul>
+    <li>Latitud y Longitud (Grado Decimal) ej., <code>48.8567,2.3508</code></li>
+    <li>Nombre de la Ciudad ej., <code>Paris</code></li>
+    <li>Código Postal de EE. UU. ej., <code>10001</code></li>
+    <li>Código Postal del Reino Unido ej., <code>SW1</code></li>
+    <li>Código de Aeropuerto de 3 dígitos (IATA) ej., <code>iata:MDQ</code></li>
+  </ul>
+  <p>Al hacer clic en las tarjetas de ciudades se redirige a otra vista con una versión más detallada de la tarjeta.</p>
 
-In the project directory, you can run:
+  <h3>Guía de Instalación de la Aplicación:</h3>
 
-### `npm start`
+  <h4>Requisitos Previos:</h4>
+  <p>Asegúrate de tener Node.js instalado. Puedes descargarlo desde el <a href="https://nodejs.org/es/">sitio web de Node.js</a>.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h4>Pasos de Instalación:</h4>
+  <ol>
+    <li>Navega hasta el directorio de instalación deseado en la terminal.</li>
+    <li>Clona el repositorio: <code>git clone https://github.com/manuelNagel/PWA.git</code></li>
+    <li>Cambia al directorio del proyecto: <code>cd ./tp-react-2</code></li>
+    <li>Instala las dependencias: <code>npm install</code></li>
+    <li>Finalmente, inicia la aplicación: <code>npm start</code></li>
+  </ol>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h4>Capturas de Pantalla:</h4>
 
-### `npm test`
+<strong>Home:</strong><br>
+![alt text](image-2.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<strong>Weather:</strong><br>
+![alt text](image.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<strong>Details:</strong><br>
+![alt text](image-1.png)
