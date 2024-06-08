@@ -2,22 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return 'Pantalla principal';
-});
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ShowController;
 
-Route::get('/login', function () {
-    return 'Login usuario';
-});
-
-Route::get('/logout', function () {
-    return 'Logout usuario';
-});
-
-Route::get('/category', function () {
-    return 'Listado de categorías';
-});
-
-Route::get('/category/show/{id}', function ($id) {
-    return 'Vista detalle del post ' . $id;
-});
+Route::get('/', [HomeController::class, 'getHome'])->name('home');
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('/login', [LoginController::class, 'getLogin']);
+Route::post('/logout', [LoginController::class, 'getLogout'])->name('logout');
+Route::get('/category/{category}', [CategoryController::class, 'getIndex'])->name('category.index');
+Route::get('/article/{id}', [CategoryController::class, 'getShow'])->name('article.show');
