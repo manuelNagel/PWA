@@ -11,10 +11,10 @@ class CategoryController extends Controller
     {
         try {
         $articles = Post::all(); 
-        return view('index', ['articles' => $articles]);
-    } catch (ModelNotFoundException $e) {
-        return view('error')->with('message', 'No se encontraron artículos a listar.');
-    }
+            return view('index', ['articles' => $articles]);
+        } catch (ModelNotFoundException $e) {
+            return view('error')->with('message', 'No se encontraron artículos a listar.');
+        }
     }
 
     public function getShow($articleId)
