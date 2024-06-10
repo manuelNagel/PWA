@@ -39,21 +39,17 @@ novedoso sobre temas específicos o libres. </p>
 
 <ol>
     <li>Clona el repositorio:</li>
-    git clone https://url-de-tu-repositorio.git
-
+    <li>git clone https://url-de-tu-repositorio.git</li>
     <li><strong>Accede al directorio del proyecto:</strong></li>
     cd nombre-de-tu-proyecto
-
     <li><strong>Instala las dependencias del proyecto utilizando Composer:</strong></li>
     composer install
-
     <li><strong>Crea un archivo .env basado en el archivo .env.example:</strong></li>
     cp .env.example .env
-
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
     php artisan key:generate
-
     <li><strong>Configura tu base de datos en el archivo .env:</strong></li>
+</ol>
     <p>Abre el archivo .env en un editor de texto y configura los siguientes valores:</p>
     <pre>
 DB_CONNECTION=mysql</br>
@@ -62,14 +58,12 @@ DB_PORT=3306</br>
 DB_DATABASE=nombre_de_tu_base_de_datos</br>
 DB_USERNAME=nombre_de_usuario</br>
 DB_PASSWORD=contraseña</br>
+<ol>
     </pre>
-
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
     php artisan migrate
-
     <li><strong>Inicia el servidor de desarrollo de Laravel:</strong></li>
     php artisan serve
-
     <li><strong>Accede a tu aplicación en tu navegador web:</strong></li>
     <p>Abre tu navegador web y visita http://localhost:8000 (o la URL proporcionada por el comando php artisan serve).</p>
 </ol>
