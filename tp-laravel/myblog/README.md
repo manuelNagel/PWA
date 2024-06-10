@@ -39,39 +39,39 @@ novedoso sobre temas específicos o libres. </p>
 
 <ol>
     <li><strong>Clona el repositorio:</strong></li>
-    <pre><code>git clone https://url-de-tu-repositorio.git</code></pre>
+    git clone https://url-de-tu-repositorio.git
 
     <li><strong>Accede al directorio del proyecto:</strong></li>
-    <pre><code>cd nombre-de-tu-proyecto</code></pre>
+    cd nombre-de-tu-proyecto
 
     <li><strong>Instala las dependencias del proyecto utilizando Composer:</strong></li>
-    <pre><code>composer install</code></pre>
+    composer install
 
-    <li><strong>Crea un archivo <code>.env</code> basado en el archivo <code>.env.example</code>:</strong></li>
-    <pre><code>cp .env.example .env</code></pre>
+    <li><strong>Crea un archivo .env basado en el archivo .env.example:</strong></li>
+    cp .env.example .env
 
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
-    <pre><code>php artisan key:generate</code></pre>
+    php artisan key:generate
 
-    <li><strong>Configura tu base de datos en el archivo <code>.env</code>:</strong></li>
-    <p>Abre el archivo <code>.env</code> en un editor de texto y configura los siguientes valores:</p>
-    <pre><code>
+    <li><strong>Configura tu base de datos en el archivo .env:</strong></li>
+    <p>Abre el archivo .env en un editor de texto y configura los siguientes valores:</p>
+    <pre>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=nombre_de_tu_base_de_datos
 DB_USERNAME=nombre_de_usuario
 DB_PASSWORD=contraseña
-    </code></pre>
+    </pre>
 
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
-    <pre><code>php artisan migrate</code></pre>
+    php artisan migrate
 
     <li><strong>Inicia el servidor de desarrollo de Laravel:</strong></li>
-    <pre><code>php artisan serve</code></pre>
+    php artisan serve
 
     <li><strong>Accede a tu aplicación en tu navegador web:</strong></li>
-    <p>Abre tu navegador web y visita <code>http://localhost:8000</code> (o la URL proporcionada por el comando <code>php artisan serve</code>).</p>
+    <p>Abre tu navegador web y visita http://localhost:8000 (o la URL proporcionada por el comando php artisan serve).</p>
 </ol>
 
 Home:
