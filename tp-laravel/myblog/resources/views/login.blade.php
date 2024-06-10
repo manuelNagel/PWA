@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Tu Blog</title>
     <link rel="stylesheet" href="styles.css">
+    @vite('resources/css/app.css')
+
 </head>
 <body>
 
@@ -37,11 +39,15 @@
                     </ul>
                 </div>
             @endif
+            <div class="mt-4 text-sm">
+                ¿No tienes una cuenta? <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Regístrate</a>
+            </div>
         </div>
     </div>
 </div>
 
 @include('components.footer')
+@vite('resources/js/app.js')
 
 <script src="scripts.js"></script>
 </body>
