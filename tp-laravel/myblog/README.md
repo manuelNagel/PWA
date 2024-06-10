@@ -39,11 +39,12 @@ novedoso sobre temas específicos o libres. </p>
 
 <ol>
     <li>Clona el repositorio:</li>
-    <li>git clone https://url-de-tu-repositorio.git</li>
-    <li><strong>Accede al directorio del proyecto:</strong></li>
-    cd nombre-de-tu-proyecto
+    <li>Clona el repositorio: <code>git clone https://github.com/manuelNagel/PWA.git</code></li>
+    <li>Cambia al directorio del proyecto: <code>cd ./tp-laravel/myblog</code></li>
     <li><strong>Instala las dependencias del proyecto utilizando Composer:</strong></li>
     composer install
+    <li><strong>O Instala las dependencias del proyecto utilizando Composer:</strong></li>
+    npm install
     <li><strong>Crea un archivo .env basado en el archivo .env.example:</strong></li>
     cp .env.example .env
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
