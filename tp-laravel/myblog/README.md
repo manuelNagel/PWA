@@ -42,15 +42,19 @@ novedoso sobre temas específicos o libres. </p>
     <pre><code>git clone https://url-de-tu-repositorio.git</code></pre>
 
     <li><strong>Accede al directorio del proyecto:</strong></li>
+    <p>Usa el siguiente comando para ingresar al directorio:</p>
     <pre><code>cd nombre-de-tu-proyecto</code></pre>
 
     <li><strong>Instala las dependencias del proyecto utilizando Composer:</strong></li>
+    <p>Ejecuta el siguiente comando para instalar todas las dependencias necesarias:</p>
     <pre><code>composer install</code></pre>
 
     <li><strong>Crea un archivo <code>.env</code> basado en el archivo <code>.env.example</code>:</strong></li>
+    <p>Copia el archivo <code>.env.example</code> y renómbralo como <code>.env</code>:</p>
     <pre><code>cp .env.example .env</code></pre>
 
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
+    <p>Utiliza el siguiente comando para generar una nueva clave de aplicación:</p>
     <pre><code>php artisan key:generate</code></pre>
 
     <li><strong>Configura tu base de datos en el archivo <code>.env</code>:</strong></li>
@@ -65,9 +69,11 @@ DB_PASSWORD=contraseña
     </code></pre>
 
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
+    <p>Para ejecutar las migraciones de la base de datos, utiliza el siguiente comando:</p>
     <pre><code>php artisan migrate</code></pre>
 
     <li><strong>Inicia el servidor de desarrollo de Laravel:</strong></li>
+    <p>Para iniciar el servidor de desarrollo de Laravel, ejecuta el siguiente comando:</p>
     <pre><code>php artisan serve</code></pre>
 
     <li><strong>Accede a tu aplicación en tu navegador web:</strong></li>
@@ -75,13 +81,13 @@ DB_PASSWORD=contraseña
 </ol>
 
 Home:
-![alt text](/myblog/public/img/Home.png)
+![alt text](./public/img/Home.png)
 
 Login: 
-![alt text](/myblog/public/img/Login.png)
+![alt text](./public/img/Login.png)
 
 List:
-![alt text](/myblog/public/img/List.png)
+![alt text](./public/img/List.png)
 
 Show:
-![alt text](/myblog/public/img/Show.png)
+![alt text](./public/img/Show.png)
