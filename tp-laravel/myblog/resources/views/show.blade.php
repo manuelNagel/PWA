@@ -16,7 +16,7 @@
         <h2 class="text-2xl font-semibold mb-4">{{ $article->title }}</h2>
         <p class="text-gray-700 mb-4">{{ $article->content }}</p>
         <p class="text-gray-700 mb-2">Creado por: {{ $article->poster }}</p>
-        <a href="{{ route('home') }}" class="text-blue-500 hover:underline">Volver al inicio</a>
+        <a href="{{ route('category.index') }}" class="text-blue-500 hover:underline inline-block mt-4 px-2 py-1 border border-blue-500 rounded-md hover:bg-blue-500 hover:text-white transition-all duration-300">Volver al inicio</a>
     </div>
 </div>
 
