@@ -42,38 +42,33 @@ novedoso sobre temas específicos o libres. </p>
     <pre><code>git clone https://url-de-tu-repositorio.git</code></pre>
 
     <li><strong>Accede al directorio del proyecto:</strong></li>
-    <p>Usa el siguiente comando para ingresar al directorio:</p>
     <pre><code>cd nombre-de-tu-proyecto</code></pre>
 
     <li><strong>Instala las dependencias del proyecto utilizando Composer:</strong></li>
-    <p>Ejecuta el siguiente comando para instalar todas las dependencias necesarias:</p>
     <pre><code>composer install</code></pre>
 
     <li><strong>Crea un archivo <code>.env</code> basado en el archivo <code>.env.example</code>:</strong></li>
-    <p>Copia el archivo <code>.env.example</code> y renómbralo como <code>.env</code>:</p>
     <pre><code>cp .env.example .env</code></pre>
 
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
-    <p>Utiliza el siguiente comando para generar una nueva clave de aplicación:</p>
     <pre><code>php artisan key:generate</code></pre>
 
     <li><strong>Configura tu base de datos en el archivo <code>.env</code>:</strong></li>
     <p>Abre el archivo <code>.env</code> en un editor de texto y configura los siguientes valores:</p>
     <pre><code>
+</ol>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=nombre_de_tu_base_de_datos
 DB_USERNAME=nombre_de_usuario
 DB_PASSWORD=contraseña
-    </code></pre>
-
+   
+<ol>
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
-    <p>Para ejecutar las migraciones de la base de datos, utiliza el siguiente comando:</p>
     <pre><code>php artisan migrate</code></pre>
 
     <li><strong>Inicia el servidor de desarrollo de Laravel:</strong></li>
-    <p>Para iniciar el servidor de desarrollo de Laravel, ejecuta el siguiente comando:</p>
     <pre><code>php artisan serve</code></pre>
 
     <li><strong>Accede a tu aplicación en tu navegador web:</strong></li>
