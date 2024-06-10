@@ -27,7 +27,6 @@ class PostController extends Controller
      */
     public function loadTestPost()
     {
-        // Array con los datos vacíos para cada post
     $postsData = [
         [
             'title' => 'La aleatoriedad no existe',
