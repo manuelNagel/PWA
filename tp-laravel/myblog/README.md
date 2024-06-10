@@ -56,15 +56,14 @@ novedoso sobre temas específicos o libres. </p>
     <li><strong>Configura tu base de datos en el archivo <code>.env</code>:</strong></li>
     <p>Abre el archivo <code>.env</code> en un editor de texto y configura los siguientes valores:</p>
     <pre><code>
-</ol>
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=nombre_de_tu_base_de_datos
 DB_USERNAME=nombre_de_usuario
 DB_PASSWORD=contraseña
-   
-<ol>
+    </code></pre>
+
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
     <pre><code>php artisan migrate</code></pre>
 
