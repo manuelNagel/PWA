@@ -38,7 +38,7 @@ novedoso sobre temas específicos o libres. </p>
 <h3>Pasos de instalación</h3>
 
 <ol>
-    <li><strong>Clona el repositorio:</strong></li>
+    <li>Clona el repositorio:</li>
     git clone https://url-de-tu-repositorio.git
 
     <li><strong>Accede al directorio del proyecto:</strong></li>
