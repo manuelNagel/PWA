@@ -49,7 +49,6 @@ novedoso sobre temas específicos o libres. </p>
     <li><strong>Genera una nueva clave de aplicación:</strong></li>
     php artisan key:generate
     <li><strong>Configura tu base de datos en el archivo .env:</strong></li>
-</ol>
     <p>Abre el archivo .env en un editor de texto y configura los siguientes valores:</p>
     <pre>
 DB_CONNECTION=mysql</br>
@@ -58,7 +57,6 @@ DB_PORT=3306</br>
 DB_DATABASE=nombre_de_tu_base_de_datos</br>
 DB_USERNAME=nombre_de_usuario</br>
 DB_PASSWORD=contraseña</br>
-<ol>
     </pre>
     <li><strong>Ejecuta las migraciones de la base de datos:</strong></li>
     php artisan migrate
